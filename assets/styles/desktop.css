@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'LeaugueSpartan';
+    src: url(assets/fonts/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+html {
+    font-family: 'LeaugueSpartan', sans-serif;
+}
+
+body {
+    background-image: url('..assets/images/bg-pattern-top-desktop.svg'), url('..assets/images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right; /* Позиции для верхнего и нижнего паттернов */
+    background-size: auto; 
+}
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    height: 100vh;
+}
