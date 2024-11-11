@@ -8,16 +8,15 @@ html {
 }
 
 body {
-    background-image: url('..assets/images/bg-pattern-top-desktop.svg'), url('..assets/images/bg-pattern-bottom-desktop.svg');
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
-    background-position: top left, bottom right; /* Позиции для верхнего и нижнего паттернов */
+    background-position: top left, bottom right; 
     background-size: auto; 
 }
 
-
-
 main {
     display: flex;
+/* ??? */
     align-items: center;
     justify-content: center;
 }
@@ -25,3 +24,62 @@ main {
 body {
     height: 100vh;
 }
+
+.star-container {
+    display: flex;
+    width: 120px;
+
+ 
+    justify-content: space-around;
+    margin-left: 30px;
+
+}
+
+
+/* to locate w grid */
+.rated-review {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 60px;
+    width: 440px;
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 700;
+    color:  hsl(300, 43%, 22%);
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.rated-report-guru {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 60px;
+    width: 440px;
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 700;
+    color:  hsl(300, 43%, 22%);
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+.rated-besttech {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 60px;
+    width: 440px;
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 700;
+    color:  hsl(300, 43%, 22%);
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.star-description {
+    margin-left: 30px;
+}
+
