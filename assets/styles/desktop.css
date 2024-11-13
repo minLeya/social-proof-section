@@ -14,15 +14,25 @@ body {
     background-size: auto; 
 }
 
-main {
-    display: flex;
-/* ??? */
-    align-items: center;
-    justify-content: center;
-}
+/*  */
 
 body {
     height: 100vh;
+}
+
+.title-and-description{
+    width: 400px;
+}
+
+
+.title {
+    color: hsl(300, 43%, 22%);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.description {
+    color:hsl(303, 10%, 53%);
 }
 
 .star-container {
