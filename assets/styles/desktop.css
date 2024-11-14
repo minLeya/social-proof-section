@@ -94,8 +94,8 @@ body {
 }
 
 .card-1, .card-2, .card-3 {
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 350px;
     background-color: hsl(300, 43%, 22%);
     color:hsl(300, 24%, 96%);
     font-size: 14px;
