@@ -20,19 +20,63 @@ body {
     height: 100vh;
 }
 
-.title-and-description{
-    width: 400px;
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "title stars",
+        "card card";
 }
 
+
+
+.title-and-description{
+    width: 400px;
+    grid-area: title;
+}
+
+.reports {
+    grid-area: stars;
+}
+
+.cards {
+    grid-area: card;
+}
+
+
+.title-and-description {
+    grid-area: title;
+}
+
+.reports {
+    grid-area: stars;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards {
+    grid-area: card;
+    display: flex;
+    justify-content: space-between;
+}
 
 .title {
     color: hsl(300, 43%, 22%);
     font-weight: 900;
     font-size: 30px;
+    width: 300px;
+    height: auto;
+    line-height: 0.9;
+
 }
 
 .description {
     color:hsl(303, 10%, 53%);
+    margin-top:20px;
+    font-size: 14px;
+    line-height: 1.8;
 }
 
 .star-container {
@@ -47,46 +91,28 @@ body {
 
 
 /* to locate w grid */
-.rated-review {
+.rated-review, .rated-report-guru, .rated-besttech {
     display: flex;
     justify-content: baseline;
     align-items: center;
-    height: 60px;
-    width: 440px;
+    height: 50px;
+    width: 420px;
     background-color: hsl(300, 24%, 96%);
     font-weight: 700;
     color:  hsl(300, 43%, 22%);
-    font-size: 15px;
+    font-size: 14px;
     border: none;
     border-radius: 10px;
 }
 
 
 .rated-report-guru {
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-    height: 60px;
-    width: 440px;
-    background-color: hsl(300, 24%, 96%);
-    font-weight: 700;
-    color:  hsl(300, 43%, 22%);
-    font-size: 15px;
-    border-radius: 10px;
+
 }
 
 
 .rated-besttech {
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-    height: 60px;
-    width: 440px;
-    background-color: hsl(300, 24%, 96%);
-    font-weight: 700;
-    color:  hsl(300, 43%, 22%);
-    font-size: 15px;
-    border-radius: 10px;
+
 }
 
 .star-description {
