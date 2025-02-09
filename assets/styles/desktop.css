@@ -33,6 +33,7 @@ main {
     justify-items: center;
     width: 75%;
  /*    margin-top: 50px; */
+    margin-left: 50px;
 }
 
 .up {
@@ -179,4 +180,23 @@ main {
 
 .profile-pic {
     width: 40px;
+}
+
+@media(max-width: 375px) {
+    .content {
+       display: flex;
+       align-items: center;
+       justify-content: center; 
+       flex-direction: column;
+    }
+
+    .up {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
 }
