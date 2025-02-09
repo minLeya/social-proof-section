@@ -46,5 +46,5 @@ Really I'm happy that I just made this project because there was tough times for
 
 ### Useful resources
 
-- [Learn CSS Grin in 20 Minutes](https://www.youtube.com/watch?v=0-DY8J_skZ0) - This helped me to understand hoe css grid works.
+- [Learn CSS Grin in 20 Minutes](https://www.youtube.com/watch?v=0-DY8J_skZ0) - This helped me to understand how css grid works.
 - [CSS Grid Generator](https://cssgrid-generator.netlify.app/) - This helped me with checking my using of css grid.
