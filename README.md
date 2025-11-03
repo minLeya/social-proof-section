@@ -41,7 +41,7 @@ Users should be able to:
 
 ### What I learned
 
-Really I'm happy that I just made this project because there was tough times for me when I started this challenge. So the main interesting thing that I learned is CSS grid. Ofc I didn't use it in this project bc I found out that I can make this page only with Flexbox only AFTER learning CSS grid. *sigh* well whatever it was intersting experience. And I did not the mobile version bc firstly i have no time for it and secondly i don't like even the idea that i have to do it.. i should better start another challenge. 
+Really I'm happy that I just made this project because there was tough times for me when I started this challenge. So the main interesting thing that I learned is CSS grid. Ofc I didn't use it in this project bc I found out that I can make this page only with Flexbox only AFTER learning CSS grid. *sigh* well whatever it was intersting experience.
 
 
 ### Useful resources
